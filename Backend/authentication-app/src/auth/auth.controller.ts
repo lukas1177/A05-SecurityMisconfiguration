@@ -3,7 +3,6 @@ import { Controller, Post, Body } from '@nestjs/common';
 @Controller('auth')
 export class AuthController {
     private readonly users = [
-        { username: 'admin', password: 'admin', role: 'admin' },
         { username: 'lukas', password: 'test', role: 'user' },
     ];
 
