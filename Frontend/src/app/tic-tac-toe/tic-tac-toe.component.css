@@ -1,0 +1,49 @@
+.mat-toolbar {
+  margin-bottom: 4vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  justify-content: right;
+}
+
+.right-side-element {
+  margin: 2vw;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.new-game {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.game-board
+{
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box
+{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica, serif;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

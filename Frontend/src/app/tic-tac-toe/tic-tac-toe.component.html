@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <span class="hover" (click)="navigateToHomePage()">My Tic-Tac-Toe Website</span>
+  <div class="right-side">
+    <span class="right-side-element">Welcome, {{responseData?.username}}!</span>
+    <span class="right-side-element">Your role: {{responseData?.role}}</span>
+  </div>
+</mat-toolbar>
+
+<div class="game-board">
+  <div class="box" *ngFor="let box of boxes; let i = index" (click)="handleBoxClick(i)">
+    {{ box }}
+  </div>
+</div>
+<div class="new-game">
+  <button mat-raised-button color="primary" (click)="resetGame()">New Game</button>
+</div>

@@ -1,0 +1,28 @@
+mat-card {
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  width: min-content;
+  margin: 10px auto;
+}
+
+.main-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
